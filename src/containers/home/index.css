@@ -1,0 +1,78 @@
+th {
+    border: 5px solid white;
+}
+
+img {
+    width: 13px;
+    height: 13px;
+    margin-left: 15px;
+}
+
+table {
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+th {
+    height: 40px;
+}
+
+.titleRow {
+    background-color: #6f7084;
+    color: #ffffff;
+}
+
+.suggestionColumn {
+    width: 300px;
+}
+
+.likesColumn {
+    width: 100px;
+}
+
+.defaultRow {
+    background-color: #f0f0f0;
+}
+
+.likedRow {
+    background-color: #e7e7e7;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    text-align: left;
+    padding-left: 15px;
+}
+
+button:hover {
+    background-color: #cbd9f3;
+}
+
+button:active {
+    background-color: #a8b7d6;
+}
+
+input[type="text"] {
+    width: 285px;
+    height: 40px;
+    padding: 0 10px;
+    margin: 0 5px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    color: #ffffff;
+    background-color: #5c7ebd;
+    height: 40px;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #7796ce;
+}
+
+input[type="submit"]:active {
+    background-color: #5974a9;
+}
