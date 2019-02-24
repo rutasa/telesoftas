@@ -1,3 +1,6 @@
+
+Real-time web application, where users can share the list of their own suggestions and vote for best one. 
+
 ## Installation
 
 ```bash
@@ -6,10 +9,8 @@ cd telesoftas
 yarn
 ```
 
-## Get started
+## Run development server
 
 ```bash
 yarn start
 ```
-
-Navigate to 'On Your Network' address specified in the console. Now you can explore the app.

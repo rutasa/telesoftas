@@ -37,7 +37,8 @@ export const addSuggestion = (e, suggestions) => {
 }
 
 export const likeItem = (i, suggestions) => {
-  const new_suggestions = suggestions.map((sugg, ind) => (ind === i ? Object.assign(sugg, {'likes':sugg['likes']+1, liked:true}) : sugg))
+  const new_suggestions = suggestions.map((sugg, ind) => (ind === i ? Object.assign(sugg,
+      {'likes':sugg.liked? sugg.likes-1 : sugg['likes']+1, liked:!sugg.liked}) : sugg))
   return dispatch => {
     dispatch({
       type: LIKE_ITEM,
